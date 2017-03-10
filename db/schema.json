@@ -32,6 +32,7 @@
       "columns": [
         {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
         {"name": "vehicle_id", "type": "int", "properties": {}},
+        {"name": "client_id", "type": "int", "properties": {}},
         {"name": "dmv_fee", "type": "int", "properties": {}},
         {"name": "dmv_fee2", "type": "int", "properties": {}},
         {"name": "service_fee", "type": "int", "properties": {}},

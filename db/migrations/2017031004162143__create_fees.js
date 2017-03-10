@@ -14,6 +14,7 @@ class CreateFees extends Nodal.Migration {
     return [
       this.createTable("fees", [
         {"name":"vehicle_id","type":"int"},
+        {"name":"client_id","type":"int"},
         {"name":"dmv_fee","type":"int"},
         {"name":"dmv_fee2","type":"int"},
         {"name":"service_fee","type":"int"},

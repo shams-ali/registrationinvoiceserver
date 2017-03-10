@@ -47,15 +47,15 @@
       },
       {
         "client_id": 1,
-        "plate": "d1111111111111111",
-        "vin": "asdfasdf11111111",
-        "make": "honda11111111111",
-        "model_year": "1990111111111",
-        "exp_date": "11/11/1111111111",
-        "engine": "honda1111111111",
-        "case_type": "some case1111111111",
-        "case_status": "some status111111111",
-        "comments": "this is a comment11111111"
+        "plate": "plate_id_1#2",
+        "vin": "vin_id_1#2",
+        "make": "honda_id_1#2",
+        "model_year": "1990",
+        "exp_date": "11/11/11",
+        "engine": "honda",
+        "case_type": "some other",
+        "case_status": "some other",
+        "comments": "this is a another"
       },
       {
         "client_id": 2,
@@ -69,8 +69,54 @@
         "case_status": "some status2",
         "comments": "this is a comment2"
       }
+    ],
+    "Fee": [
+      {
+        "vehicle_id": 1,
+        "dmv_fee": 100,
+        "dmv_fee2": 0,
+        "service_fee": 45,
+        "other_fee": 0,
+        "extra_discount": 0,
+        "old_post_fee": 0,
+        "ros_bos": 0,
+        "ros_num": 0,
+        "tax": 0,
+        "vehicle_tax": 0,
+        "total_amount": 145,
+        "total_outstanding": 145
+      },
+      {
+        "vehicle_id": 1,
+        "dmv_fee": 200,
+        "dmv_fee2": 0,
+        "service_fee": 45,
+        "other_fee": 0,
+        "extra_discount": 0,
+        "old_post_fee": 0,
+        "ros_bos": 0,
+        "ros_num": 0,
+        "tax": 0,
+        "vehicle_tax": 0,
+        "total_amount": 245,
+        "total_outstanding": 245
+      },
+      {
+        "vehicle_id": 2,
+        "dmv_fee": 1000,
+        "dmv_fee2": 0,
+        "service_fee": 450,
+        "other_fee": 0,
+        "extra_discount": 0,
+        "old_post_fee": 0,
+        "ros_bos": 0,
+        "ros_num": 0,
+        "tax": 0,
+        "vehicle_tax": 0,
+        "total_amount": 1450,
+        "total_outstanding": 1450
+      }
     ]
-
   },
 
   "test": {},
