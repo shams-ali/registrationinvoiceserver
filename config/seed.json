@@ -128,6 +128,115 @@
         "username": "admin",
         "password": "password"
       }
+    ],
+    "Client": [
+      {
+        "dealer": "dealerCompany",
+        "name": "dealer1",
+        "phone": 1111111,
+        "email": "dealer@dealer.com",
+        "dl": "D1111111",
+        "address": "111 hello.st",
+        "city": "Torrance",
+        "state": "CA",
+        "zip": 11111
+      },
+      {
+        "dealer": "dealerCompany2",
+        "name": "dealer2",
+        "phone": 999999999,
+        "email": "dealer2@dealer2.com",
+        "dl": "D22222222",
+        "address": "222 hello.st",
+        "city": "Torrance",
+        "state": "CA",
+        "zip": 22222
+      }
+    ],
+    "Vehicle": [
+      {
+        "client_id": 1,
+        "plate": "d111111",
+        "vin": "asdfasdf",
+        "make": "honda",
+        "model_year": "1990",
+        "exp_date": "11/11/11",
+        "engine": "honda1",
+        "case_type": "some case1",
+        "case_status": "some status1",
+        "comments": "this is a comment1"
+      },
+      {
+        "client_id": 1,
+        "plate": "plate_id_1#2",
+        "vin": "vin_id_1#2",
+        "make": "honda_id_1#2",
+        "model_year": "1990",
+        "exp_date": "11/11/11",
+        "engine": "honda",
+        "case_type": "some other",
+        "case_status": "some other",
+        "comments": "this is a another"
+      },
+      {
+        "client_id": 2,
+        "plate": "d22222",
+        "vin": "asdfasdf222",
+        "make": "honda2",
+        "model_year": "2222",
+        "exp_date": "22/22/22",
+        "engine": "honda2",
+        "case_type": "some case2",
+        "case_status": "some status2",
+        "comments": "this is a comment2"
+      }
+    ],
+    "Fee": [
+      {
+        "vehicle_id": 1,
+        "dmv_fee": 100,
+        "dmv_fee2": 0,
+        "service_fee": 45,
+        "other_fee": 0,
+        "extra_discount": 0,
+        "old_post_fee": 0,
+        "ros_bos": 0,
+        "ros_num": 0,
+        "tax": 0,
+        "vehicle_tax": 0,
+        "total_amount": 145,
+        "total_outstanding": 145
+      },
+      {
+        "vehicle_id": 1,
+        "dmv_fee": 200,
+        "dmv_fee2": 0,
+        "service_fee": 45,
+        "other_fee": 0,
+        "extra_discount": 0,
+        "old_post_fee": 0,
+        "ros_bos": 0,
+        "ros_num": 0,
+        "tax": 0,
+        "vehicle_tax": 0,
+        "total_amount": 245,
+        "total_outstanding": 245
+      },
+      {
+        "vehicle_id": 2,
+        "dmv_fee": 1000,
+        "dmv_fee2": 0,
+        "service_fee": 450,
+        "other_fee": 0,
+        "extra_discount": 0,
+        "old_post_fee": 0,
+        "ros_bos": 0,
+        "ros_num": 0,
+        "tax": 0,
+        "vehicle_tax": 0,
+        "total_amount": 1450,
+        "total_outstanding": 1450
+      }
     ]
   }
 
