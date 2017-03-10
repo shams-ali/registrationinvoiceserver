@@ -9,10 +9,9 @@ class V1VehiclesController extends Nodal.Controller {
 
     Vehicle.query()
       .where(this.params.query)
+      .join('client')
       .end((err, models) => {
-
-        this.respond(err || models);
-
+        this.respond(err || models, ['id','make','model_year','vin', 'created_at', 'client']);
       });
 
   }

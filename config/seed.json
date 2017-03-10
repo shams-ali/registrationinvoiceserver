@@ -12,13 +12,24 @@
       {
         "dealer": "dealerCompany",
         "name": "dealer1",
-        "phone": 999999999,
+        "phone": 1111111,
         "email": "dealer@dealer.com",
-        "dl": "D3333333",
+        "dl": "D1111111",
         "address": "111 hello.st",
         "city": "Torrance",
         "state": "CA",
-        "zip": 99999
+        "zip": 11111
+      },
+      {
+        "dealer": "dealerCompany2",
+        "name": "dealer2",
+        "phone": 999999999,
+        "email": "dealer2@dealer2.com",
+        "dl": "D22222222",
+        "address": "222 hello.st",
+        "city": "Torrance",
+        "state": "CA",
+        "zip": 22222
       }
     ],
     "Vehicle": [
@@ -28,11 +39,35 @@
         "vin": "asdfasdf",
         "make": "honda",
         "model_year": "1990",
-        "exp_date": "12/13/15",
-        "engine": "honda",
-        "case_type": "some case",
-        "case_status": "some status",
-        "comments": "this is a comment"
+        "exp_date": "11/11/11",
+        "engine": "honda1",
+        "case_type": "some case1",
+        "case_status": "some status1",
+        "comments": "this is a comment1"
+      },
+      {
+        "client_id": 1,
+        "plate": "d1111111111111111",
+        "vin": "asdfasdf11111111",
+        "make": "honda11111111111",
+        "model_year": "1990111111111",
+        "exp_date": "11/11/1111111111",
+        "engine": "honda1111111111",
+        "case_type": "some case1111111111",
+        "case_status": "some status111111111",
+        "comments": "this is a comment11111111"
+      },
+      {
+        "client_id": 2,
+        "plate": "d22222",
+        "vin": "asdfasdf222",
+        "make": "honda2",
+        "model_year": "2222",
+        "exp_date": "22/22/22",
+        "engine": "honda2",
+        "case_type": "some case2",
+        "case_status": "some status2",
+        "comments": "this is a comment2"
       }
     ]
 
