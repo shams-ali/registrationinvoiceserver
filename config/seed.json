@@ -1,0 +1,53 @@
+{
+
+  "development": {
+    "User": [
+      {
+        "email": "admin@gmail.com",
+        "username": "admin",
+        "password": "password"
+      }
+    ],
+    "Client": [
+      {
+        "dealer": "dealerCompany",
+        "name": "dealer1",
+        "phone": 999999999,
+        "email": "dealer@dealer.com",
+        "dl": "D3333333",
+        "address": "111 hello.st",
+        "city": "Torrance",
+        "state": "CA",
+        "zip": 99999
+      }
+    ],
+    "Vehicle": [
+      {
+        "client_id": 1,
+        "plate": "d111111",
+        "vin": "asdfasdf",
+        "make": "honda",
+        "model_year": "1990",
+        "exp_date": "12/13/15",
+        "engine": "honda",
+        "case_type": "some case",
+        "case_status": "some status",
+        "comments": "this is a comment"
+      }
+    ]
+
+  },
+
+  "test": {},
+
+  "production": {
+    "User": [
+      {
+        "email": "admin@gmail.com",
+        "username": "admin",
+        "password": "password"
+      }
+    ]
+  }
+
+}

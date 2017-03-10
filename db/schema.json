@@ -1,0 +1,112 @@
+{
+
+  "migration_id": 2017031004355441,
+
+  "models": {
+
+    "Client": {
+
+      "table": "clients",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "dealer", "type": "string", "properties": {}},
+        {"name": "name", "type": "string", "properties": {}},
+        {"name": "phone", "type": "int", "properties": {}},
+        {"name": "email", "type": "string", "properties": {}},
+        {"name": "dl", "type": "int", "properties": {}},
+        {"name": "address", "type": "int", "properties": {}},
+        {"name": "city", "type": "string", "properties": {}},
+        {"name": "state", "type": "string", "properties": {}},
+        {"name": "zip", "type": "string", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    },
+
+    "Fee": {
+
+      "table": "fees",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "vehicle_id", "type": "int", "properties": {}},
+        {"name": "dmv_fee", "type": "int", "properties": {}},
+        {"name": "dmv_fee2", "type": "int", "properties": {}},
+        {"name": "service_fee", "type": "int", "properties": {}},
+        {"name": "other_fee", "type": "int", "properties": {}},
+        {"name": "extra_discount", "type": "int", "properties": {}},
+        {"name": "old_post_fee", "type": "int", "properties": {}},
+        {"name": "ros_bos", "type": "int", "properties": {}},
+        {"name": "ros_num", "type": "int", "properties": {}},
+        {"name": "tax", "type": "int", "properties": {}},
+        {"name": "vehicle_tax", "type": "int", "properties": {}},
+        {"name": "total_amount", "type": "int", "properties": {}},
+        {"name": "total_outstanding", "type": "int", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    },
+
+    "Payment": {
+
+      "table": "payments",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "client_id", "type": "int", "properties": {}},
+        {"name": "vehicle_id", "type": "int", "properties": {}},
+        {"name": "cash", "type": "int", "properties": {}},
+        {"name": "debit", "type": "int", "properties": {}},
+        {"name": "credit", "type": "int", "properties": {}},
+        {"name": "check", "type": "int", "properties": {}},
+        {"name": "total_paid", "type": "int", "properties": {}},
+        {"name": "total_outstanding", "type": "int", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    },
+
+    "User": {
+
+      "table": "users",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "email", "type": "string", "properties": {"unique":true}},
+        {"name": "password", "type": "string", "properties": {}},
+        {"name": "username", "type": "string", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    },
+
+    "Vehicle": {
+
+      "table": "vehicles",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "client_id", "type": "int", "properties": {}},
+        {"name": "plate", "type": "int", "properties": {}},
+        {"name": "vin", "type": "string", "properties": {}},
+        {"name": "make", "type": "string", "properties": {}},
+        {"name": "model_year", "type": "int", "properties": {}},
+        {"name": "exp_date", "type": "string", "properties": {}},
+        {"name": "engine", "type": "string", "properties": {}},
+        {"name": "case_type", "type": "string", "properties": {}},
+        {"name": "case_status", "type": "string", "properties": {}},
+        {"name": "comments", "type": "string", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    }
+
+  }
+
+}
