@@ -83,8 +83,7 @@
         "ros_num": 0,
         "tax": 0,
         "vehicle_tax": 0,
-        "total_amount": 145,
-        "total_outstanding": 145
+        "total_amount": 145
       },
       {
         "vehicle_id": 1,
@@ -98,8 +97,7 @@
         "ros_num": 0,
         "tax": 0,
         "vehicle_tax": 0,
-        "total_amount": 245,
-        "total_outstanding": 245
+        "total_amount": 245
       },
       {
         "vehicle_id": 2,
@@ -113,8 +111,7 @@
         "ros_num": 0,
         "tax": 0,
         "vehicle_tax": 0,
-        "total_amount": 1450,
-        "total_outstanding": 1450
+        "total_amount": 1450
       }
     ]
   },
@@ -204,8 +201,7 @@
         "ros_num": 0,
         "tax": 0,
         "vehicle_tax": 0,
-        "total_amount": 145,
-        "total_outstanding": 145
+        "total_amount": 145
       },
       {
         "vehicle_id": 1,
@@ -219,8 +215,7 @@
         "ros_num": 0,
         "tax": 0,
         "vehicle_tax": 0,
-        "total_amount": 245,
-        "total_outstanding": 245
+        "total_amount": 245
       },
       {
         "vehicle_id": 2,
@@ -234,8 +229,7 @@
         "ros_num": 0,
         "tax": 0,
         "vehicle_tax": 0,
-        "total_amount": 1450,
-        "total_outstanding": 1450
+        "total_amount": 1450
       }
     ]
   }

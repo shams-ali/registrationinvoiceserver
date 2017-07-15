@@ -15,7 +15,6 @@ class CreatePayments extends Nodal.Migration {
       this.createTable("payments", [
         {"name":"client_id","type":"int"},
         {"name":"vehicle_id","type":"int"},
-        {"name":"fee_id","type":"int"},
         {"name":"type","type":"string"},
         {"name":"amount","type":"int"},
       ])
