@@ -59,12 +59,9 @@
         {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
         {"name": "client_id", "type": "int", "properties": {}},
         {"name": "vehicle_id", "type": "int", "properties": {}},
-        {"name": "cash", "type": "int", "properties": {}},
-        {"name": "debit", "type": "int", "properties": {}},
-        {"name": "credit", "type": "int", "properties": {}},
-        {"name": "check", "type": "int", "properties": {}},
-        {"name": "total_paid", "type": "int", "properties": {}},
-        {"name": "total_outstanding", "type": "int", "properties": {}},
+        {"name": "fee_id", "type": "int", "properties": {}},
+        {"name": "type", "type": "string", "properties": {}},
+        {"name": "amount", "type": "int", "properties": {}},
         {"name": "created_at", "type": "datetime", "properties": {}},
         {"name": "updated_at", "type": "datetime", "properties": {}}
       ]
