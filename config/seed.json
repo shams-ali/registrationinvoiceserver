@@ -191,6 +191,7 @@
     "Fee": [
       {
         "vehicle_id": 1,
+        "client_id": 1,
         "dmv_fee": 100,
         "dmv_fee2": 0,
         "service_fee": 45,
@@ -205,6 +206,7 @@
       },
       {
         "vehicle_id": 1,
+        "client_id": 1,
         "dmv_fee": 200,
         "dmv_fee2": 0,
         "service_fee": 45,
@@ -219,6 +221,7 @@
       },
       {
         "vehicle_id": 2,
+        "client_id": 1,
         "dmv_fee": 1000,
         "dmv_fee2": 0,
         "service_fee": 450,
