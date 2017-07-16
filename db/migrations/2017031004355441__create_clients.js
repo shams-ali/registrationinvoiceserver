@@ -12,7 +12,17 @@ class CreateClients extends Nodal.Migration {
   up() {
 
     return [
-      this.createTable("clients", [{"name":"dealer","type":"string"},{"name":"name","type":"string"},{"name":"phone","type":"int"},{"name":"email","type":"string"},{"name":"dl","type":"int"},{"name":"address","type":"int"},{"name":"city","type":"string"},{"name":"state","type":"string"},{"name":"zip","type":"string"}])
+      this.createTable("clients", [
+        {"name":"dealer","type":"string"},
+        {"name":"name","type":"string"},
+        {"name":"phone","type":"int"},
+        {"name":"email","type":"string"},
+        {"name":"dl","type":"string"},
+        {"name":"address","type":"string"},
+        {"name":"city","type":"string"},
+        {"name":"state","type":"string"},
+        {"name":"zip","type":"string"}
+      ])
     ];
 
   }

@@ -14,11 +14,11 @@ class CreateVehicles extends Nodal.Migration {
     return [
       this.createTable("vehicles", [
         {"name":"client_id","type":"int"},
-        {"name":"plate","type":"int"},
+        {"name":"plate","type":"string"},
         {"name":"vin","type":"string"},
         {"name":"make","type":"string"},
         {"name":"model_year","type":"int"},
-        {"name":"exp_date","type":"string"},
+        {"name":"exp_date","type":"datetime"},
         {"name":"engine","type":"string"},
         {"name":"case_type","type":"string"},
         {"name":"case_status","type":"string"},
