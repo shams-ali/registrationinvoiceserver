@@ -14,7 +14,7 @@
         {"name": "name", "type": "string", "properties": {}},
         {"name": "phone", "type": "int", "properties": {}},
         {"name": "email", "type": "string", "properties": {}},
-        {"name": "dl", "type": "int", "properties": {}},
+        {"name": "dl", "type": "string", "properties": {}},
         {"name": "address", "type": "int", "properties": {}},
         {"name": "city", "type": "string", "properties": {}},
         {"name": "state", "type": "string", "properties": {}},
