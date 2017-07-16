@@ -15,7 +15,8 @@ class V1VehiclesController extends Nodal.Controller {
           'id', 
           'make', 
           'model_year', 
-          'vin', 
+          'vin',
+          'plate',
           'exp_date', 
           'created_at', 
           'client'
