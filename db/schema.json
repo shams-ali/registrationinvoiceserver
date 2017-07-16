@@ -44,7 +44,6 @@
         {"name": "tax", "type": "int", "properties": {}},
         {"name": "vehicle_tax", "type": "int", "properties": {}},
         {"name": "total_amount", "type": "int", "properties": {}},
-        {"name": "total_outstanding", "type": "int", "properties": {}},
         {"name": "created_at", "type": "datetime", "properties": {}},
         {"name": "updated_at", "type": "datetime", "properties": {}}
       ]
@@ -59,7 +58,6 @@
         {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
         {"name": "client_id", "type": "int", "properties": {}},
         {"name": "vehicle_id", "type": "int", "properties": {}},
-        {"name": "fee_id", "type": "int", "properties": {}},
         {"name": "type", "type": "string", "properties": {}},
         {"name": "amount", "type": "int", "properties": {}},
         {"name": "created_at", "type": "datetime", "properties": {}},
