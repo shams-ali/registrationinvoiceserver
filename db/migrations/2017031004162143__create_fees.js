@@ -25,6 +25,9 @@ class CreateFees extends Nodal.Migration {
         {"name":"ros_num","type":"int"},
         {"name":"tax","type":"int"},
         {"name":"vehicle_tax","type":"int"},
+        {"name":"comments","type":"string"},
+        {"name":"type","type":"string"},
+        {"name":"status","type":"string"},
         {"name":"total_amount","type":"int"}
       ])
     ];

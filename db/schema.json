@@ -43,6 +43,9 @@
         {"name": "ros_num", "type": "int", "properties": {}},
         {"name": "tax", "type": "int", "properties": {}},
         {"name": "vehicle_tax", "type": "int", "properties": {}},
+        {"name": "comments", "type": "string", "properties": {}},
+        {"name": "type", "type": "string", "properties": {}},
+        {"name": "status", "type": "string", "properties": {}},
         {"name": "total_amount", "type": "int", "properties": {}},
         {"name": "created_at", "type": "datetime", "properties": {}},
         {"name": "updated_at", "type": "datetime", "properties": {}}
